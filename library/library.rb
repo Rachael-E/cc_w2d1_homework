@@ -38,6 +38,7 @@ class Library
           return
         elsif book[:title] != book_title
           @books << added_book
+          return # without this line, it's an infinite loop, nooo
         end
       end
       return

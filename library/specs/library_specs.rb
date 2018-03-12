@@ -39,7 +39,7 @@ class TestLibrary < MiniTest::Test
 
   def test_add_book_to_library
     result = @library.add_book_to_library("the_name_of_the_wind")
-    assert_equal("4", @library.books.length)
+    assert_equal(3, @library.books.length)
   end
 
   # def test_change_rental_details
