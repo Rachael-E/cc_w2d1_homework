@@ -44,16 +44,5 @@ class Library
       return
     end
 
-      # for book in @books
-      #   book_not_in_library = true if book[:title] != book_title
-      # end
-      #
-      # added_book[:title] << book_title if book_not_in_library == true
-      #
-      # @books << added_book
-
-    # end
-    #
-    # def method_name
 
 end
